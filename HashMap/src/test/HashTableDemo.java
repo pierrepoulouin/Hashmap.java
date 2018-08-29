@@ -2,7 +2,8 @@ package test;
 import java.util.*;
 public class HashTableDemo {
 
-   public static void main(String args[])  {
+   @SuppressWarnings("unchecked")
+public static void main(String args[])  {
       // Create a hash map
       Hashtable balance = new Hashtable();
       Enumeration names;
